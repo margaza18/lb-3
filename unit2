@@ -1,0 +1,25 @@
+>>> i = 50
+>>> while i > 100:
+	print (i)
+	i +=5
+
+	
+>>> for j in 'Hello world!!':
+	if j == 'w':
+		continue
+	print (j * 2, end = '')
+
+	
+HHeelllloo  oorrlldd!!!!
+>>> for j in 'Hello world!!':
+	if j == 'w':
+		break
+	print (j *3, end = '')
+
+	
+HHHeeellllllooo   
+>>> for j in 'Hello world!!':
+	if j == 'a':
+		break
+else:
+	print ("Буквы а нет в слове")

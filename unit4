@@ -1,0 +1,32 @@
+skorost = 120
+if abs(skorost) > 0:
+    print ("Игрок движется")
+
+s = 'hi'
+dir(s) 
+
+help(s.upper)
+
+s.upper()
+
+eval('''print("Hi again!!! 88")''')
+
+print ("Введите выражение: ") 
+v = input()
+print ("Результат: ", eval(v))
+
+exec('''s=10
+b=20
+print(s+b)
+''')
+
+print ("Введите ваш возраст: ")
+age = input()
+if int(age)>10:
+    print ("Вам больше 10 лет")
+
+s = "This is my project"    
+print (len(s)) 
+
+sp = ["vc38", 3456, "mdmd"]
+print(len(sp))

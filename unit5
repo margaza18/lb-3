@@ -1,0 +1,37 @@
+import copy
+
+class Auto():
+    pass
+
+auto1 = Auto()
+auto1.wheels = 4
+
+print(auto1.wheels)
+
+auto2 = copy.copy(auto1)
+auto2.wheels = 8
+
+print(auto2.wheels)
+
+
+import keyword
+
+print(keywors.iskeyword("if"))
+print(keywors.iskeyword("while"))
+print(keywors.iskeyword("wolf"))
+
+
+import random
+
+print(randon.randint(1,100))
+num = randon.randint(1,100)
+while True:
+    print("Введите число от 1 до 100:")
+    num1 = int(input())
+    if num1 == num:
+        print("Вы угадали!")
+        break
+        else:
+            print("Не угадали")
+        if num1 == 1000:
+            print("Загаданое число %S" % num)

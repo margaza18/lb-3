@@ -1,0 +1,7 @@
+>>> import keyword
+>>> print (keyword.iskeyword("if"))
+True
+>>> print (keyword.iskeyword("while"))
+True
+>>> print (keyword.iskeyword("wolf"))
+False
